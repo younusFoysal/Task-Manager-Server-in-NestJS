@@ -26,6 +26,26 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+
+## APIs
+1. Create: POST http://localhost:3000/tasks
+```
+{
+  "title": "Learn NestJS task 3",
+  "description": "Build a task manager server 3"
+}
+```
+2. Get All: http://localhost:3000/tasks
+3. Get by ID: http://localhost:3000/tasks/2
+4. Update Task: PATCH http://localhost:3000/tasks/2
+```
+{
+  "status": "IN_PROGRESS"
+}
+```
+5. Delete: http://localhost:3000/tasks/1
+
+
 ## Project setup
 
 ```bash
